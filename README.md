@@ -1,10 +1,11 @@
 # CoapTesting
 
-> A simple series of Python3 functions to test the performance of a CoAP server using libcoap.
+> A simple libcoap wrapper for Python3 to test the performance and functionality of CoAP servers.
 
 ## About
 
-This project is a Python wrapper for the `coap-client` command providing various testing utilities.
+This project is a Python wrapper for the `coap-client` command exposed by [libcoap](https://github.com/obgm/libcoap)
+providing various testing utilities.
 
 ## Dependencies
 
