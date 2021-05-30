@@ -7,9 +7,9 @@ Method = str
 Resp = tuple[float, str]
 
 GET: Method = 'get'
-POST: Method = 'get'
+POST: Method = 'post'
 PUT: Method = 'put'
-DELETE: Method = 'put'
+DELETE: Method = 'delete'
 
 
 def run_cmd(cmd: str, cool_down=0) -> Resp:
